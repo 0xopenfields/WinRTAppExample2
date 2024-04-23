@@ -1,0 +1,9 @@
+namespace CppWinRTComponent
+{
+    [default_interface]
+    runtimeclass GLControl : Microsoft.UI.Xaml.Controls.Control
+    {
+        GLControl();
+        void Init(Int64 hWndParent);
+    }
+}
